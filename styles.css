@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  color: red;
+  font-family: verdana;
+  text-align: center;
+  font-style: italic;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+.myDivIzquierdo {
+  width: 67%;
+  align-self: auto;
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+  float: left;
+}
+
+.myDivDerecho {
+  margin: 10px; /* espacio despues del borde*/
+  width: 30%;
+  border: 5px outset red; /* borde del contenedor*/
+  background-color: lightseagreen;
+  text-align: center;
+  float: left;
+}
+
+.myEncabezado {
+  border-bottom: 10px;
+  padding: 15px; /* espacio entre el contenido del contenedor y el borde*/
+  width: 97%;
+  height: 50px;
+  border: 5px outset black;
+  background-color: grey;
+  text-align: center;
+}
+
+.myPiePagina {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 100%;
+  height: 50px;
+  border: 5px outset black;
+  background-color: black;
+  text-align: center;
+  clear: both;
+}
